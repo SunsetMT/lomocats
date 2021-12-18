@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
   <TestComponent msg="Welcome to Your Vue.js App"/>
+  foasfpajfojaeojj
+  <PageWrapper/>
 </template>
 
 <script>
 import TestComponent from './components/TestComponent'
+import PageWrapper from "@/components/PageWrapper";
 
 export default {
   name: 'App',
   components: {
-    TestComponent
+    TestComponent,
+    PageWrapper
   }
 }
 </script>
