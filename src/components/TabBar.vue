@@ -24,7 +24,7 @@ export default {
 .chat-button
   background-image: url("../assets/img/Chat_Icon.svg")
 .home-button
-  background-image: url("../assets/img/Home_Icon.svg")
+  background-image: url("../assets/img/Active_Home_Icon.svg")
   background-size: 50px 50px
 .cat-button
   background-image: url("../assets/img/Cat_Icon.svg")
