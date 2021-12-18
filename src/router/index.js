@@ -1,11 +1,11 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import PageWrapper from "@/components/PageWrapper";
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: PageWrapper
   },
   {
     path: '/about',
