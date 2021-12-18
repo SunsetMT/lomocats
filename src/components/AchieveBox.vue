@@ -1,8 +1,8 @@
 <template>
-  <div class="achieve-wrapper">
-    <h2>Очивки</h2>
-    <div class="flex flex-wrap mx-auto block-achieve w-[270px] ">
-      <div class="bg-red-300 h-[64px] w-[64px] rounded-full mx-[10px] my-[10px] flex place-content-center place-items-center" v-for="i in 5" :key="i">
+  <div class="achieve-wrapper relative bottom-[40px] border-8 border-[#892933] rounded-[20px] w-[356px] h-[319px] mx-auto bg-white">
+    <h2 class="achieve-header text-[#892933] text-[27px] mt-[20px] mb-[32px]">Достижения</h2>
+    <div class="flex flex-wrap mx-auto block-achieve">
+      <div class="h-[88px] w-[88px] rounded-full border-8 border-[#FFC233] mx-[12px] mb-[19px] flex place-content-center place-items-center" v-for="i in 6" :key="i">
         {{i}}
       </div>
     </div>
@@ -16,9 +16,9 @@ name: "AchieveBox"
 </script>
 
 <style lang="sass">
-.achiev-wrapper
-  height: 500px
-  background-color: darkgrey
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Raleway:wght@600&display=swap');
+.achieve-header
+  font-family: 'Nunito', serif
 
 
 </style>

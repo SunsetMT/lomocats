@@ -1,19 +1,19 @@
 <template>
-  <div class="users-rank-box-wrapper w-[375px] h-[600px] bg-red-500 mx-auto rounded-xl border-4 border-indigo-500">
-    <UsersRankTableHeader/>
-    <UserRankElement v-for="i in 5" :key="i" :place="i"/>
+  <div class="achieve-wrapper border-8 border-[#892933] rounded-[20px] w-[356px] h-[319px] mx-auto bg-white">
+    <h2 class="user-rank-box-header text-[#892933] text-[27px] mt-[20px] mb-[32px]">Рейтинг</h2>
   </div>
 </template>
 
 <script>
-import UserRankElement from "@/components/UserRankElement";
-import UsersRankTableHeader from "@/components/UsersRankTableHeader";
 export default {
-name: "UsersRankBox",
-  components: {UsersRankTableHeader, UserRankElement}
+  name: "UsersRankBox",
 }
 </script>
 
-<style scoped>
+<style lang="sass">
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Raleway:wght@600&display=swap');
+.user-rank-box-header
+  font-family: 'Nunito', serif
+
 
 </style>
