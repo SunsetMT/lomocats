@@ -1,19 +1,22 @@
 <template>
   <div class="page-wrapper">
     <PageHeader/>
-    <AchievBox/>
+    <AchieveBox/>
+    <UsersRankBox/>
   </div>
 </template>
 
 <script>
 import PageHeader from "@/header/PageHeader";
-import AchievBox from "@/middle/AchieveBox";
+import AchieveBox from "@/components/AchieveBox";
+import UsersRankBox from "@/components/UsersRankBox";
 
 export default {
   name: "PageWrapper",
   components: {
+    UsersRankBox,
     PageHeader,
-    AchievBox
+    AchieveBox
   }
 }
 </script>
