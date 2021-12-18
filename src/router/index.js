@@ -3,6 +3,7 @@ import PageWrapper from "@/components/PageWrapper";
 import GetTokensPage from "@/views/GetTokensPage";
 import ShopPage from "@/views/ShopPage";
 import UserPage from "@/views/UserPage";
+import ChatPage from "@/views/ChatPage";
 
 const routes = [
   {
@@ -32,6 +33,11 @@ const routes = [
     path: '/user',
     name: 'user',
     component: UserPage
+  },
+  {
+    path: '/chat',
+    name: 'chat',
+    component: ChatPage
   }
 ]
 

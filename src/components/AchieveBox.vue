@@ -16,7 +16,7 @@ name: "AchieveBox"
 </script>
 
 <style lang="sass">
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Raleway:wght@600&display=swap')
 .achieve-header
   font-family: 'Nunito', serif
 

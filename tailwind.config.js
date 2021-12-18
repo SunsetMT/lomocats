@@ -3,7 +3,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   mode:'jit',
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'cats-chat': "url('/assets/img/Cat_Icon')"
+      }
+    },
   },
   variants: {
     extend: {},
