@@ -18,6 +18,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="sass">
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Raleway:wght@600&display=swap')
+.user-rank, .user-name, .user-coins
+  font-family: Nunito, serif
+
+
 
 </style>
