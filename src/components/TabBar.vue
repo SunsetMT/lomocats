@@ -3,7 +3,7 @@
   <div class="tab-bar-wrapper bg-[#FFC233] fixed bottom-[0] w-[99vw]">
     <div class="icons-box w-[277px] mx-auto flex place-items-center place-content-center justify-between h-[90px]">
       <button class="chat-button h-[50px] w-[50px]" @click="redirect('/#/chat')"></button>
-      <button class="home-button h-[50px] w-[50px]" @click="redirect('#/user')"></button>
+      <button class="home-button h-[50px] w-[50px]" @click="redirect('#')"></button>
       <button class="cat-button h-[50px] w-[50px]"></button>
     </div>
   </div>

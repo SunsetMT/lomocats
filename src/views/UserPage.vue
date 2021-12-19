@@ -1,7 +1,7 @@
 <template>
   <div class="user-page-wrapper">
     <div class="user-avatar-box mx-auto h-[445px] bg-[#FFC233] flex place-content-center place-items-center">
-      <img src="../assets/img/Main_Cat1.svg" alt="" class="">
+      <img src="../assets/img/Cat_Icon2.svg" alt="" class="">
     </div>
     <span class="user-rank-value relative bottom-[170px] left-[29px] text-[25px] text-[#ffffff]">{{USER.rank}}</span>
     <span class="user-level-value relative bottom-[312px] right-[90px] text-[31px] text-[#892933]">{{USER.level}}</span>
